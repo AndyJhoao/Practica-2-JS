@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<htMl lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practida Programacion Lógica y funcional</title>
+</head>
+<style>
+    body{
+        background-color: salmon;
+    }
+    body header h1,main{
+        text-align: center;
+    }
+    .verde{
+        background-color: green;
+        -webkit-animation:slide 4s ease-in-out infinite;
+        animation:slide 4s ease-in-out infinite;
+    }
+    .azul{
+        background-color: darkorchid;
+        -webkit-animation:slide 4s -1.5s ease-in-out infinite;
+        animation:slide 4s -1.5s ease-in-out infinite;
+    }
+    .pelota{
+        margin-top: 30px;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        position: relative; 
+    }
+    @keyframes slide {
+        0% { left:75% }
+        50% { left:25%; }
+        100% { left:75%; }
+    }
+    @-webkit-keyframes slide {
+        0% { left:75% }
+        50% { left:25%; }
+        100% { left:75%; }
+    }
+</style>
+<body>
+    <header>
+        <h1>Programacion Lógica y funcional</h1>
+    </header>
+    <main>
+        <img src="https://media1.tenor.com/images/246e4a119125ad8fbce0562be44ec779/tenor.gif?itemid=13404869" alt="auron">
+    </main>
+    <div class="pelota verde">
+    </div>
+    <div class="pelota azul">
+    </div>
+    <script src="menu.js"></script>
+</body>
+</html>
